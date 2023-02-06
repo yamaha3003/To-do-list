@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #e1dfdf;
+    max-height: 100%
+}

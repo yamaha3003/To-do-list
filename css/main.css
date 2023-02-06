@@ -1,0 +1,22 @@
+.main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    background-color: white;
+    box-shadow: 0px 0px 5px #e1dfdf;
+    margin: 10px 0px;
+}
+
+.main__header {
+    background-color: #e1dfdf;
+    padding-left: 10px;
+}
+
+.section__header {
+    padding: 10px;
+    border-bottom: 2px solid #e1dfdf;
+    margin: inherit;
+}

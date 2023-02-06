@@ -1,0 +1,32 @@
+.myTask {
+    padding: 10px;
+    list-style: none;
+
+}
+
+.myTask__item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.myTask__button {
+    border: none;
+    color: white;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.myTask__button--done {
+    background-color: green;
+}
+
+.myTask__button--done:hover {
+    background-color: rgb(0, 145, 0);
+}
+
+.myTask__button--remove {
+    background-color: red;
+}
